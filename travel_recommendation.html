@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Recommendation site</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body>
+    <nav>
+        <div class=""logo-title">
+            <img src="./images/airplane.png" alt="TravelBloom Logo" id="logo">
+            <span class="site-name">TravelBloom</span>  
+        </div>
+        <ul class="nav-links">
+            <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+            <li><a href="./travel_about.html" id="about">About us</a></li>
+            <li><a href="./travel_contact.html" id="contact">Contact us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="conditionInput" placeholder="Enter a destination/keyword">
+            <button id="btnSearch">Search</button>
+            <button id="btnClear">Clear</button>
+        </div>
+        
+    </nav>
+    <section class="intro">
+        <div class="intro-heading">
+            <h1>EXPLORE</h1>
+            <h1>DREAM</h1>
+            <h1>DESTINATION</h1>
+        </div>
+        <div class="intro-paragraph">
+            <p>
+                It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
+                while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
+            </p>
+        </div>
+        <a href="#" class="cta-button">BOOK NOW</a>
+    </section>
+    <section class="recommendation-results" id="recommendationResults">
+        <!-- Recommendation cards will be injected here by JS -->
+    </section>
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>
